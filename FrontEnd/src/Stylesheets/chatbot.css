@@ -1,0 +1,32 @@
+.chatbot-container {
+  max-width: 800px;
+  background-color: #e5eaeb;
+}
+
+.bot-title {
+  color: #491d8d;
+}
+
+.chatbox {
+  height: 150px;
+  overflow-y: auto;
+}
+
+.bot-message {
+  font-size: 1.2rem;
+  color: #333;
+  border: 1px solid #d1e5e9;
+  border-radius: 6px;
+  padding: 7px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);    
+  width:fit-content;
+}
+
+.btn-primary {
+  background-color: #42b0c5;
+  border-color: #42b0c5;
+}
+
+.btn-primary:disabled {
+  background-color: #6c757d;
+}
