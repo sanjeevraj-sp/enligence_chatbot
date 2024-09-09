@@ -43,7 +43,7 @@ const [form, setForm] = useState<FormState>({});
           setForm({ ...form, topic: selectedTopic });
       
           try {
-            const res = await axios.post("http://localhost:5000/api/chat", { userInput: selectedTopic });
+            const res = await axios.post("https://enligence-chatbot.onrender.com/api/chat", { userInput: selectedTopic });
             console.log(res);
             setForm({ ...form, response: res.data }); 
             
